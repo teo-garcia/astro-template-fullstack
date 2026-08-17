@@ -5,7 +5,7 @@ const publicUrl = env.publicUrl.replace(/\/$/, '')
 export const siteMetadata = {
   description:
     'Production-ready Astro template with React islands, theme support, health checks, tests, and Docker defaults.',
-  name: 'React Template Astro',
+  name: 'Astro Template Fullstack',
   shortName: 'RTA',
   url: publicUrl,
 } as const

@@ -19,10 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-*** Add File: /Users/juan.garcia/Desktop/_/dev/templates/react-template-astro/README.md
+*** Add File: /Users/juan.garcia/Desktop/_/dev/templates/astro-template-fullstack/README.md
 <div align="center">
 
-# React Template Astro
+# Astro Template Fullstack
 
 **Production-ready Astro starter with React islands, Tailwind CSS, and modern
 testing**
@@ -113,9 +113,9 @@ run the Astro dev server.
 
 | Template                     | Description                |
 | ---------------------------- | -------------------------- |
-| `react-template-next`        | Next.js full-stack app     |
-| `react-template-rr`          | React Router + Vite app    |
-| `react-template-tanstack-start` | TanStack Start app      |
+| `next-template-fullstack`        | Next.js full-stack app     |
+| `react-router-template-fullstack` | React Router full-stack app |
+| `tanstack-start-template-fullstack` | TanStack Start full-stack app |
 | `react-native-template-expo` | Expo mobile app            |
 
 ---

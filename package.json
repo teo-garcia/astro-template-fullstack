@@ -70,7 +70,7 @@
   "engines": {
     "node": ">=24"
   },
-  "name": "react-template-astro",
+  "name": "astro-template-fullstack",
   "private": true,
   "scripts": {
     "analyze": "ANALYZE=true astro build",

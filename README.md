@@ -1,6 +1,6 @@
 <div align="center">
 
-# React Template Astro
+# Astro Template Fullstack
 
 **Production-ready Astro starter with React islands, Tailwind CSS, and modern
 testing**
@@ -127,12 +127,12 @@ preload policy belong to the hosting layer.
 
 ## Related Templates
 
-| Template                        | Description             |
-| ------------------------------- | ----------------------- |
-| `react-template-next`           | Next.js full-stack app  |
-| `react-template-rr`             | React Router + Vite app |
-| `react-template-tanstack-start` | TanStack Start app      |
-| `react-native-template-expo`    | Expo mobile app         |
+| Template                            | Description                   |
+| ----------------------------------- | ----------------------------- |
+| `next-template-fullstack`           | Next.js full-stack app        |
+| `react-router-template-fullstack`   | React Router full-stack app   |
+| `tanstack-start-template-fullstack` | TanStack Start full-stack app |
+| `react-native-template-expo`        | Expo mobile app               |
 
 ---
 
