@@ -5,7 +5,7 @@ import { defineConfig } from 'eslint/config'
 import astroPlugin from 'eslint-plugin-astro'
 
 export default defineConfig([
-  { ignores: ['.astro/**'] },
+  { ignores: ['.astro/**', '.vercel/**'] },
   ...base,
   ...sharedReact,
   ...astroPlugin.configs.recommended,
