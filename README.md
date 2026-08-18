@@ -127,12 +127,12 @@ preload policy belong to the hosting layer.
 
 ## Related Templates
 
-| Template                            | Description                   |
-| ----------------------------------- | ----------------------------- |
-| `next-template-fullstack`           | Next.js full-stack app        |
-| `react-router-template-fullstack`   | React Router full-stack app   |
-| `tanstack-start-template-fullstack` | TanStack Start full-stack app |
-| `react-native-template-expo`        | Expo mobile app               |
+| Template                          | Description                   |
+| --------------------------------- | ----------------------------- |
+| `next-template-fullstack`         | Next.js full-stack app        |
+| `react-router-template-fullstack` | React Router full-stack app   |
+| `tanstack-template-fullstack`     | TanStack Start full-stack app |
+| `expo-template-mobile`            | Expo mobile app               |
 
 ---
 
