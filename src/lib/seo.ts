@@ -6,7 +6,7 @@ export const siteMetadata = {
   description:
     'Production-ready Astro template with React islands, theme support, health checks, tests, and Docker defaults.',
   name: 'Astro Template Fullstack',
-  shortName: 'RTA',
+  shortName: 'ATF',
   url: publicUrl,
 } as const
 

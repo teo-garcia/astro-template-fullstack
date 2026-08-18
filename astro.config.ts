@@ -9,7 +9,7 @@ const isVercel = process.env.VERCEL === '1'
 const shouldAnalyze = process.env.ANALYZE === 'true'
 
 export default defineConfig({
-  site: process.env.PUBLIC_SITE_URL ?? 'http://localhost:4321',
+  site: process.env.PUBLIC_SITE_URL ?? 'http://localhost:3000',
   integrations: [
     react({
       babel: {
@@ -21,7 +21,7 @@ export default defineConfig({
   adapter: isVercel ? vercel() : undefined,
   output: isVercel ? 'server' : 'static',
   server: {
-    port: 4321,
+    port: 3000,
   },
   vite: {
     plugins: [

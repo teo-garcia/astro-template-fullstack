@@ -1,6 +1,7 @@
 ---
 import '~/styles/app.css'
 import { ClientRouter } from 'astro:transitions'
+import { HealthStatus } from '~/components/health-status/health-status'
 import { Providers } from '~/components/providers'
 import { getCanonicalUrl, siteMetadata } from '~/lib/seo'
 
@@ -41,9 +42,12 @@ const canonicalUrl = getCanonicalUrl(Astro.url.pathname)
   </head>
   <body>
     <Providers client:load>
-      <main id='main-content'>
-        <slot />
-      </main>
+      <div class='min-h-screen'>
+        <main id='main-content'>
+          <slot />
+        </main>
+      </div>
     </Providers>
+    <HealthStatus client:load />
   </body>
 </html>

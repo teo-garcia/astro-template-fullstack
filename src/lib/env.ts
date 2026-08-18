@@ -6,7 +6,7 @@ const envSchema = z.object({
   SSR: z.boolean(),
   PUBLIC_SITE_URL: z
     .string()
-    .default('http://localhost:4321')
+    .default('http://localhost:3000')
     .refine((value) => {
       try {
         new URL(value)

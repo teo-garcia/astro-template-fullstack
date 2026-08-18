@@ -5,8 +5,8 @@ import { siteMetadata } from '~/lib/seo'
 ---
 
 <Base
-  title={`Home | ${siteMetadata.shortName}`}
+  title={`${siteMetadata.shortName} | Home`}
   description={siteMetadata.description}
 >
-  <HomePage client:load />
+  <HomePage />
 </Base>
