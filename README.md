@@ -91,21 +91,11 @@ Astro page conventions own route-state wiring:
 
 ---
 
-## Shared Governance
-
-| Area               | Tooling                                             |
-| ------------------ | --------------------------------------------------- |
-| Dependency updates | Renovate                                            |
-| Issue intake       | GitHub issue templates                              |
-| Change review      | Pull request template                               |
-| CI                 | GitHub Actions for lint, typecheck, test, and build |
-| Delivery           | Vercel deployment workflow                          |
-
 ## Security Headers
 
-`src/middleware.ts` applies the governed header baseline when the app runs in
-server mode. `vercel.json` applies the same deployment-owned baseline to static
-assets and static output: Content Security Policy, Cross-Origin-Opener-Policy,
+`src/middleware.ts` applies the default security headers when the app runs in
+server mode. `vercel.json` applies the same deployment headers to static assets
+and static output: Content Security Policy, Cross-Origin-Opener-Policy,
 Permissions-Policy, Referrer-Policy, X-Content-Type-Options, and
 X-Frame-Options.
 
