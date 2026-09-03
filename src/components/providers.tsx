@@ -26,7 +26,7 @@ export const Providers = ({ children }: { children: React.ReactNode }) => {
       <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
         {children}
         <ThemeSwitch />
-        <ReactQueryDevtools buttonPosition='bottom-left' />
+        <ReactQueryDevtools buttonPosition='bottom-right' />
       </ThemeProvider>
     </QueryClientProvider>
   )
