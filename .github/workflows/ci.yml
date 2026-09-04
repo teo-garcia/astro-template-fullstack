@@ -72,4 +72,7 @@ jobs:
 
       - name: Stop production server
         if: always()
-        run: pnpm exec astro preview stop
+        run: |
+          if [ -f "$RUNNER_TEMP/web-conformance.pid" ]; then
+            kill "$(cat "$RUNNER_TEMP/web-conformance.pid")" || true
+          fi
