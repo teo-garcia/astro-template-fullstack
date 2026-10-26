@@ -2,7 +2,7 @@
   "author": "teo-garcia",
   "dependencies": {
     "@astrojs/check": "^0.9.8",
-    "@astrojs/react": "^7.0.0",
+    "@astrojs/react": "^7.1.1",
     "@astrojs/sitemap": "^3.7.2",
     "@astrojs/vercel": "^11.0.0",
     "@tanstack/react-query": "^5.90.11",
@@ -15,12 +15,14 @@
     "zod": "^4.6.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.29.7",
     "@commitlint/cli": "^21.0.0",
     "@commitlint/config-conventional": "^21.0.0",
     "@eslint/compat": "^2.0.0",
     "@eslint/eslintrc": "^3.3.3",
     "@eslint/js": "^10.0.0",
     "@playwright/test": "^1.57.0",
+    "@rolldown/plugin-babel": "^0.2.3",
     "@tailwindcss/vite": "^4.1.17",
     "@teo-garcia/eslint-config-shared": "^0.4.2",
     "@teo-garcia/prettier-config-shared": "^0.2.10",
